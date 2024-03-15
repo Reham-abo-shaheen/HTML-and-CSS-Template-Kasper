@@ -218,7 +218,7 @@ header .form i {
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url(../Images/landing.jpg);
+    background-image: url(../Images/landing.avif);
     background-size: cover;
     position: relative;
 
@@ -371,7 +371,7 @@ header .form i {
 .design {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(../Images/design.jpg);
+    background-image: url(../Images/design.avif);
     background-size: cover;
     position: relative;
     height: 600px;
@@ -517,6 +517,8 @@ header .form i {
 
 .portfolio .more {
     padding: 15px 20px;
+    width: moz-fit-content;
+    width: webkit-fit-content;
     width: fit-content;
     margin: 30px auto;
     color: white;
